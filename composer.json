@@ -1,0 +1,20 @@
+{
+    "name": "perfacilis/openprovider-php-api",
+    "description": "PHP implementation for OpenProvider REST API 1.0.0-beta.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Roy Arisse",
+            "email": "roy@perfacilis.com",
+            "homepage": "https://perfacilis.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Openprovider\\": "src/Openprovider"
+        }
+    }
+}
